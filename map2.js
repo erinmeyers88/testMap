@@ -9,6 +9,7 @@
       "esri/dijit/Legend",
       "dojo/domReady!"
       ], function (Map, arcgisUtils, Legend) {
+		  
         arcgisUtils.createMap(webmapId, "mapTwo").then(function (response) {
         map = response.map;
 

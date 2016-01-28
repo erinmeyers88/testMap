@@ -1,6 +1,25 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 #mapOne {
 	margin: 50px;
 	height: 300px;
-	/*width: 300px;*/
+	width: 600px;
 }
 
+#mapTwo {
+	height: 550px;
+	width: 400px;
+}
+
+.mapAndLegend {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 550px;
+	width: 800px;
+}
