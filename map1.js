@@ -1,8 +1,8 @@
 var map;
     require(["esri/map", "dojo/domReady!"], function(Map) {
       map = new Map("mapOne", {
-        center: [-100, 40],
-        zoom: 3,
+        center: [0, 20],
+        zoom: 2,
         basemap: "national-geographic"
       });
     });
